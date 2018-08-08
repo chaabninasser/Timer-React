@@ -1,0 +1,87 @@
+.text-center {
+  display: flex;
+  justify-content: center;
+  color: rgb(177, 113, 177);
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-timer {
+  text-align: center;
+  font-family: monospace;
+  font-size: 60px;
+  margin: auto;
+  line-height: 3.7;
+  height: 226px;
+  border: 2px solid;
+  border-radius: 100%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: green;
+  border-color: rgb(255, 0, 85);
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.timer-captures {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.btn-success {
+  color: gray;
+  text-align: center;
+  background: rgb(43, 226, 119);
+  font-size: 30px;
+}
+.btn-success:hover {
+  text-align: center;
+  color: red;
+  cursor: pointer;
+}
+
+.btn-alert {
+  color: black;
+
+  text-align: center;
+  background: red;
+  font-size: 30px;
+}
+.btn-alert:hover {
+  text-align: center;
+  color: rgb(43, 226, 119);
+  cursor: pointer;
+}
+
+.btn-info {
+  color: gray;
+
+  text-align: center;
+  background: rgb(43, 226, 119);
+  font-size: 30px;
+}
+.btn-info:hover {
+  text-align: center;
+  color: red;
+  cursor: pointer;
+}
+
+.btn-danger {
+  color: purple;
+
+  text-align: center;
+  background: rgb(43, 226, 119);
+  font-size: 30px;
+}
+.btn-danger:hover {
+  text-align: center;
+  color: red;
+  cursor: pointer;
+}
